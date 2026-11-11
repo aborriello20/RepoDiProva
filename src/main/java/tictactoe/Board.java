@@ -116,6 +116,7 @@ public class Board {
         cell[move]=next;
         next=getOpponentMark(next);
         checkIfEnded();
+        ///conflitto dal master!!
     }
     
     /**
