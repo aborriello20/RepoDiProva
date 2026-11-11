@@ -66,12 +66,14 @@ public class Board {
         winner=other.winner;
     }
     
+    //Un nuovo commento
+    
     /**
      * @brief Restituisce il mark del prossimo giocatore che deve muovere.
      * @return La costante CELL_X oppure CELL_O.
      * @pre 
      * La partita non è terminata (vedi #isEnded)
-     */
+     *///una modifica qui
     public int getNextMark() {
         assert !ended;
         return next;
@@ -94,7 +96,6 @@ public class Board {
     public boolean isValidMove(int move) {
         return cell[move]==CELL_NONE;
     }
-
     /**
      * @brief Modifica la scacchiera eseguendo una mossa
      * @param[in] move mossa da eseguire, tra 0 e SIZE-1
