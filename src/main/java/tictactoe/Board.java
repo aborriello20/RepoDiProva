@@ -117,6 +117,7 @@ public class Board {
         next=getOpponentMark(next);
         checkIfEnded();
         ///conflitto dal master!!
+        //
     }
     
     /**
