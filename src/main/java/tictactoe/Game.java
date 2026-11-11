@@ -5,7 +5,8 @@ package tictactoe;
  */
 public class Game {
     private Player player[];
-    private Board board;
+    private Board board; 
+    
     private UserInterface userInterface;
     
     /**
