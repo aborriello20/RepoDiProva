@@ -116,7 +116,7 @@ public class Board {
         cell[move]=next;
         next=getOpponentMark(next);
         checkIfEnded();
-        //modifica da 
+        //
     }
     
     /**
